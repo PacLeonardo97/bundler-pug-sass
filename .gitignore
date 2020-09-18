@@ -1,0 +1,17 @@
+node_modules
+
+build
+
+.env
+
+src/pug/templates/*.pug
+src/js/*.js
+!src/js/index.js
+
+src/SASS/*.scss
+
+yarn-error.log
+package-lock.json
+package-error.json
+
+yarn.lock
