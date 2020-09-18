@@ -5,7 +5,6 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 require('dotenv/config')
 
 const isDevelopment = process.env.NODE_ENV === 'development'
-console.log('process', process.env)
 const fs = require('fs');
 
 let templates = [];
