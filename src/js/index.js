@@ -1,4 +1,5 @@
+import ola from './ola';
 
 export default function() {
-    console.log('welcome to my repository');
+    ola();
 }
